@@ -3,99 +3,133 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-#Pinaise
+ }
+ 
+ #Pinaise
 {
     text-align: center;
     padding: 10px;
     background-color: dodgerblue;
     color: white;
-}
-#wrapper
-{
-    background-color: yellow;
-    width: 100%;
-    margin: 0px auto;
-    padding: 0 10%;
-   
-}
-header figure img
-{
-    width: 100%;
+ }
+ 
+ body
+ {
+    background-color: rgb(255, 213, 0);
     
-}
-
-h1{
-    color: rgb(255, 255, 0);
-    margin-top: 10px;
-}
-
-article p
-{
-    width: 500px;
-    text-align: justify;
-    font-size: 12px;
-    margin-top: 35px;
-}
-ul{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+ }
+ 
+ #wrapper
+ {
+    max-width: 1024px;
+    margin: 0px auto;
+    background-color: white;
+ }
+ 
+ header figure img
+ {     
+    width: 100%;    
+ }
+ 
+ h1{
+    color: rgb(255, 213, 0);
+    margin-left: 5px;
+ }
+ 
+ #middle{
+    display: flex;
+ }
+ 
+ main
+ {
+    display: flex;
+    padding: 10px;
+ }
+ 
+ main article   
+ {
+    margin-block-start: 40px;
+    width: 100%;
+ }
+ 
+ main article p
+ {
+    margin-block-start: 15px;
+    
+ }
+ 
+ article p
+ {   
+ 
+    text-align: justify; 
+    margin: 5px;  
+ }
+ 
+ ul
+ {
+    
     list-style-type: none;
     background-color: dodgerblue;
-    text-align: center;
-    padding: 10px;
-}
-
-a{
-    color: white;
-}
-aside p{
-
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
-}
-aside figure img{
-    width: 110px;
-    border: 1px solid white;
-    margin-top: 5px;
-
-    
-}
-aside{
-    background-color: dodgerblue;
-    width: 150px;
-    font-size: 12px;
-    text-align: justify;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-figcaption{
-    text-align: center;
-    font-size: 12px;
-    margin-top: 10px;
-    color: white;
-}
-footer{
-    text-align: center;
-    background-color: dodgerblue;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    font-size: 15px;
-}
-#middle
-{
+    margin-block-start: 20px ;
     display: flex;
-    justify-content: space-between;
-    width: fit-content;
-    height: 350px;
-    background-color: white;
-    width: 100%;
-    margin: 0px auto;
-    margin-top: px;
-}
+    flex-direction: column;
+    padding: 10px;
+    text-align: center; 
+    
+ }
+ ul a
+ {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ nav
+ {
+    padding: 10px 0 10px 10px;
+    
+ }
+ 
+ aside figure img 
+ {
+    width: 120px; 
+    border: 2px solid rgb(235,235,235);
+    margin: auto;
+ 
+ }
+ 
+ aside{
+    background-color: dodgerblue;
+   
+    margin: 15px 0;
+    
+    padding: 15px;  
+    
+ }
+ 
+ aside figure
+ {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+ aside p 
+ {
+    text-align: justify;
+    width: 140px;
+    color: white;
+ }
+ figcaption
+ {
+    text-align: center;
+    color: white;
+ }
+   
+ footer
+ {
+    text-align: center;
+    background-color: rgb(37, 140, 243);
+    color: white;
+    padding: 10px;
+ }
+ 
